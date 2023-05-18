@@ -1,0 +1,18 @@
+.selected {
+    background: linear-gradient(202.17deg, #FF00D6 8.58%, #FF4D00 91.42%);
+    border-radius: 20px;
+    color: white;
+}
+
+.button {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    border: none;
+    background-color: white;
+}

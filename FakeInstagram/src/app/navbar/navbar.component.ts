@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
 
+  discover: string = "discover";
+  search = "Search";
+  upload = "Upload Picture";
+  chat = "Chat";
+  profile = "Profile";
 }
