@@ -8,4 +8,7 @@ import { Component, Input } from '@angular/core';
 export class SelectedButtonComponent {
 
   @Input() title!: string;
+  @Input() state!: string;
+  @Input() icon!: string;
+
 }
