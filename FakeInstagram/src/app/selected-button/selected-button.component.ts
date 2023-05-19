@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-selected-button',
@@ -6,9 +6,5 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./selected-button.component.css']
 })
 export class SelectedButtonComponent {
-
-  @Input() title!: string;
-  @Input() state!: string;
-  @Input() icon!: string;
 
 }
